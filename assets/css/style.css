@@ -1,3 +1,9 @@
+/* no margin or border for every element */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     /* more on this crazy number later*/
 
@@ -24,9 +30,35 @@ header h1 {
     color: #fce138;
 
     margin: 0;
+
+    display: inline;
 }
 
+/* add style to all <a> elements */
 header a {
 
+    text-decoration: none;
+
     color: #fce138;
+}
+
+/* moving <nav> */
+header nav {
+
+    float: right;
+
+    margin: 7px 0;
+}
+
+/* apply style to <nav> elements */
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+
+    font-weight: lighter;
+
+    font-size: 22px;
 }
