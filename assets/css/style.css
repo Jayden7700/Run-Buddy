@@ -1,7 +1,10 @@
 /* no margin or border for every element */
 * {
     margin: 0;
+
     padding: 0;
+
+    box-sizing: border-box;
 }
 
 body {
@@ -13,7 +16,7 @@ body {
 
 }
 
-/* applly style to <header> */
+/* apply style to <header> */
 
 header {
     padding: 20px 35px;
@@ -61,4 +64,38 @@ header nav ul li a {
     font-weight: lighter;
 
     font-size: 22px;
+}
+
+/* footer styling*/
+footer {
+    background: #fce138;
+
+    width: 100%;
+
+    padding: 40px 35px;
+}
+
+/* styling for left element in the footer */
+footer h2 {
+    display: inline;
+
+    color: #024e76;
+
+    font-size: 30px;
+
+    margin: 0;
+}
+
+/* styling for the <div> container */
+footer div {
+    float: right;
+
+    line-height: 1.5;
+
+    text-align: right;
+}
+
+/* style for <a> element in footer */
+footer a {
+    color: #024e76;
 }
