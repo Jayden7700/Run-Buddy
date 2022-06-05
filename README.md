@@ -8,4 +8,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website 
-https
+https://jayden7700.github.io/Run-Buddy/
+
+## Contribution 
+Made with ❤ by Jayden
